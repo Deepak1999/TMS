@@ -179,7 +179,7 @@ const Dashboard = () => {
                 </div>
             </section>
         </main>
-    )
-}
+    );
+};
 
 export default Dashboard
