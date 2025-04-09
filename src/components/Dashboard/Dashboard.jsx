@@ -5,9 +5,9 @@ const Dashboard = () => {
         <main id="main" className="main">
             <section className="section dashboard">
                 <div className="row">
-                    <div className="col-lg-8">
+                    <div className="col-lg-12">
                         <div className="row">
-                            <div className="col-xxl-4 col-md-6">
+                            <div className="col-xxl-3 col-md-6">
                                 <div className="card info-card sales-card">
 
                                     <div className="filter">
@@ -40,7 +40,7 @@ const Dashboard = () => {
 
                                 </div>
                             </div>
-                            <div className="col-xxl-4 col-md-6">
+                            <div className="col-xxl-3 col-md-6">
                                 <div className="card info-card sales-card">
 
                                     <div className="filter">
@@ -73,7 +73,7 @@ const Dashboard = () => {
 
                                 </div>
                             </div>
-                            <div className="col-xxl-4 col-md-6">
+                            <div className="col-xxl-3 col-md-6">
                                 <div className="card info-card sales-card">
 
                                     <div className="filter">
@@ -90,7 +90,7 @@ const Dashboard = () => {
                                     </div>
 
                                     <div className="card-body">
-                                        <h5 className="card-title">Complete Tasks</h5>
+                                        <h5 className="card-title">Completed Tasks</h5>
 
                                         <div className="d-flex align-items-center">
                                             <div className="card-icon rounded-circle d-flex align-items-center justify-content-center">
@@ -106,8 +106,7 @@ const Dashboard = () => {
 
                                 </div>
                             </div>
-
-                            <div className="col-xxl-4 col-md-6">
+                            <div className="col-xxl-3 col-md-6">
                                 <div className="card info-card revenue-card">
 
                                     <div className="filter">
