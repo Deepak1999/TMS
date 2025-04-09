@@ -9,7 +9,7 @@ const Login = () => {
                         <div className="col-lg-4 col-md-6 d-flex flex-column align-items-center justify-content-center">
 
                             <div className="d-flex justify-content-center py-4">
-                                <a href="index.html" className="logo d-flex align-items-center w-auto">
+                                <a className="logo d-flex align-items-center w-auto">
                                     <img src="assets/img/logo.png" alt="" />
                                     <span className="d-none d-lg-block">Task Managements</span>
                                 </a>
@@ -42,7 +42,7 @@ const Login = () => {
                                 </div>
                             </div>
                             <div className="credits">
-                                Designed by <a href="#">TMS Teams</a>
+                                Designed by <a>TMS Teams</a>
                             </div>
                         </div>
                     </div>

@@ -31,7 +31,7 @@ const CreateTask = () => {
                                             <div className="row mb-3">
                                                 <label for="inputText" className="col-sm-2 col-form-label">Project Name</label>
                                                 <div className="col-sm-10">
-                                                    <input type="text" className="form-control" />
+                                                    <input type="text" className="form-control" required />
                                                 </div>
                                             </div>
                                             <div className="row mb-3">
@@ -49,13 +49,13 @@ const CreateTask = () => {
                                             <div className="row mb-3">
                                                 <label for="inputDate" className="col-sm-2 col-form-label">Project Start Date</label>
                                                 <div className="col-sm-10">
-                                                    <input type="date" className="form-control" />
+                                                    <input type="date" className="form-control" required />
                                                 </div>
                                             </div>
                                             <div className="row mb-3">
                                                 <label for="inputPassword" className="col-sm-2 col-form-label">Project Description</label>
                                                 <div className="col-sm-10">
-                                                    <textarea className="form-control" style={{ height: "100px" }}></textarea>
+                                                    <textarea className="form-control" style={{ height: "100px" }} required></textarea>
                                                 </div>
                                             </div>
                                             <div className="row mb-3">
@@ -73,7 +73,7 @@ const CreateTask = () => {
                                             <div className="row mb-3">
                                                 <label for="inputText" className="col-sm-2 col-form-label">Project Additional Comments</label>
                                                 <div className="col-sm-10">
-                                                    <input type="text" className="form-control" />
+                                                    <input type="text" className="form-control" required />
                                                 </div>
                                             </div>
                                             <div className="row mb-3">
